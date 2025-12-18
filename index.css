@@ -1,0 +1,288 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Roboto, Arial, Helvetica, sans-serif ;
+}
+.mother{
+    display: flex;
+}
+.login-side{
+    flex: 30%;
+    align-items: center;
+    margin-top: 100px;
+}
+.login-side img{
+    width: 190px;
+    height: 90px;
+    margin: 40px;
+    margin-left: 100px;
+}
+h4{
+    font-size: 18px;
+    color: #444444;
+    letter-spacing: 0.2px;
+}
+input{
+    height: 40px;
+    width: 350px;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid rgba(202, 197, 197, 0.829);
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    text-indent: 13px;
+    background-color: #e8f0fe;
+    color: #444444;
+}
+input:focus{
+    border: 1px solid #35aa47;
+}
+.form {
+    padding: 3px 42px;
+}
+.input-span{
+    display: grid;
+    gap: 13px;
+    position: relative;
+}
+#envelope{
+    position: absolute;
+    left: 320px;
+    top: 15px;
+    color: #444444af;
+}
+#padlock{
+    position: absolute;
+    left: 320px;
+    top: 71px;
+    color: #444444b9;
+}
+button{
+    padding: 13px 150px;
+    border: none;
+    background-color: #35aa47;
+    border-radius: 5px;
+    font-size: 15px;
+    text-wrap: nowrap;
+    color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.2px;
+}
+button:hover{
+    background-color: #444444;
+}
+.forgortten{
+    font-size: 12px;
+    color: #444444;
+    margin-top: 10px;
+}
+.forgortten:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.image-side{
+    flex: 70%;
+    height: 100%;
+}
+.image-side img{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -100px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    body{
+        margin: 0%;
+        padding: 0%;
+        font-family: Roboto, Arial, Helvetica, sans-serif ;
+    }
+    .login-side img{
+        width: 190px;
+        height: 90px;
+        margin-top: -70px;
+        margin-left: 60px;
+    }
+    h4{
+        font-size: 24px;
+        font-weight: bold;
+        color: #444444;
+        letter-spacing: 0.2px;
+    }
+    .form {
+        padding: 0px 40px;
+        margin-top: -10px;
+    }
+    input{
+        height: 40px;
+        width: 300px;
+        outline: none;
+        font-size: 16px;
+        border: 1px solid rgba(202, 197, 197, 0.829);
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        text-indent: 13px;
+        background-color: #e8f0fe;
+        color: #444444;
+    }
+    .input-span .first-input:focus{
+        border: 1px solid #35aa47;
+    }
+    .mother{
+        display: block;
+    }
+    .forgortten {
+        font-size: 13px;
+        letter-spacing: 0.2px;
+    }
+    .forgortten i{
+        font-size: 12.2px;
+        color: #444444;
+        padding-top: 10px;
+    }
+    #envelope{
+        position: absolute;
+        left: 270px;
+        top: 15px;
+        color: #444444af;
+    }
+    #padlock{
+        position: absolute;
+        left: 270px;
+        top: 71px;
+        color: #444444b9;
+    }
+    .image-side{
+        flex: 60%;
+        height: 100%;
+        width: 100%;
+    }
+    .image-side img{
+        width: 100%;
+        height: 99vh;
+        margin-top: 50px;
+        margin-bottom: -100px;
+    }
+    .input-span .first-input{
+        height: 40px;
+        width: 300px;
+        outline: none;
+        font-size: 15px;
+        border: 1px solid rgba(202, 197, 197, 0.829);
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        text-indent: 13px;
+        background-color: transparent;
+        color: #444444;
+    }
+    button{
+        width: 310px;
+        border: none;
+        background-color: #35aa47;
+        border-radius: 5px;
+        font-size: 15px;
+        text-wrap: nowrap;
+        color: white;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        letter-spacing: 0.2px;
+    }
+    button:focus{
+        background-color: #444444;
+    }
+}
+
+@media(min-width:  481px) and (max-width: 768px){
+    body{
+        margin: 0%;
+        padding: 0%;
+        font-family: Roboto, Arial, Helvetica, sans-serif ;
+    }
+    .login-side{
+        flex: 20%;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .login-side img{
+        width: 180px;
+        height: 90px;
+        margin-top: 200px;
+        margin-left: 80px;
+    }
+    h4{
+        font-size: 20px;
+        color: #252424ef;
+        letter-spacing: 0.2px;
+        letter-spacing: 0.4px;
+        font-weight: bold;
+    }
+    input{
+        height: 40px;
+        width: 300px;
+        outline: none;
+        font-size: 15px;
+        border: 1px solid rgba(202, 197, 197, 0.829);
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        text-indent: 13px;
+        background-color: #e8f0fe;
+        color: #444444
+    }
+    .form {
+        padding: 0px 30px;
+    }
+    .input-span .first-input{
+        background-color: transparent;
+    }
+    .input-span{
+        display: grid;
+        gap: 13px;
+        position: relative;
+    }
+    #envelope{
+        position: absolute;
+        left: 270px;
+        top: 15px;
+        color: #444444;
+    }
+    #padlock{
+        position: absolute;
+        left: 270px;
+        top: 71px;
+        color: #444444b9;
+    }
+    button{
+        padding: 13px 100px;
+        border: none;
+        background-color: #35aa47;
+        border-radius: 5px;
+        font-size: 15px;
+        text-wrap: nowrap;
+        color: white;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        letter-spacing: 0.2px;
+    }
+    button:focus{
+        background-color: #444444;
+    }
+    .forgortten{
+        font-size: 13px;
+        color: #444444;
+        margin-top: 13px;
+    }
+    .forgortten:focus{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .forgortten i{
+        font-size: 13.2px;
+        color: #444444;
+        padding-top: 12px;
+        padding-left: 10px;
+    }
+    .image-side{
+        flex: 80%;
+        height: 100%;
+        width: 100%;
+    }
+        
+}
