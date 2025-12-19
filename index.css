@@ -185,6 +185,7 @@ button:hover{
         color: white;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
         letter-spacing: 0.2px;
+        padding-left: 130px;
     }
     button:focus{
         background-color: #444444;
