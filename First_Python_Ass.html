@@ -19,6 +19,56 @@
         let favouriteFood =  ["Rice", "Beans", "yam", "bread", "swallo"];
         console.log(favouriteFood[0]);
         console.log(favouriteFood[4]);
+
+        //number 1 assignment new question
+        let newNumber = [2, 3, 5, 7, 1, 9, 0, 11, 14, 47];
+        let mapNumber = newNumber.map(num => num * 2);
+        console.log(mapNumber);
+
+        //number 2 assignment new question
+        let score =  [45, 67, 89, 34, 90, 76, 54];
+        let highScore = score.filter(num => num > 60);
+        console.log(highScore);
+
+        //number 3 assignment new question
+        let totalScore  = score.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+        console.log(totalScore);
+
+        //number 4 assignment new question
+        let fruits = ['apple', 'banana', 'mango', 'orange', 'pear'];
+        let afterSlice = fruits.slice(0, 3);
+        console.log(afterSlice);
+
+        //number 5 assignment new question
+        let Fruits = ['apple', 'banana', 'mango', 'orange', 'pear'];
+        // splice works by removing elements from an array and, if necessary, inserting new elements in their place, returning the deleted elements.
+        Fruits.splice(2, 1, 'grape');
+        console.log(Fruits);
+
+        //number 6 assignment new question
+        score = score.find(num => num > 80);
+        console.log(score);
+        
+        //number 7 assignment new question
+        Fruits.forEach(Fruits => {
+            console.log(Fruits.toUpperCase())
+        });
+
+        //number 8 assignment new question
+        let allName =  ['John', 'Jane', 'Mark', 'Mary'];
+        console.log(allName.includes('Mark'));
+
+        //number 9 assignment new question
+        newNumber.sort(
+            (a, b) => a - b
+        );
+        console.log(newNumber);
+
+        //number 10 assignment new question
+        let No1 =  ['red', 'blue'];
+        let No2 = ['green', 'yellow'];
+        let combinedColors = No1.concat(No2);
+        console.log(combinedColors);
     </script>
 </body>
 </html>
